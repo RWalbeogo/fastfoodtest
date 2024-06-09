@@ -11,7 +11,7 @@ pipeline {
         stage("build & SonarQube analysis") {          
             steps {
                 dir('./fastfood_BackEnd/'){
-                    withSonarQubeEnv('SonarServer') {
+                    withSonarQubeEnv('SonarQube') {
                         sh 'mvn verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=RWalbeogo_fastfoodtest'
                         }
                 }
