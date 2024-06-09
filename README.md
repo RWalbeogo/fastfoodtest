@@ -11,7 +11,7 @@ This application is a __3-tier__ application where we have :
 2. a backend : developed with Java and __Spring Boot__
 3. a database : __MySQL__. 
 
-## Deployement Process
+## Deployement Processes
 We can deploy this application in 3 different ways: deployment on a Centos 7 server, deployment with Docker, and deployment with Docker-Compose.
 
 ### Note : use a server with at least 2GB of RAM
